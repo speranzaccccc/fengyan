@@ -50,5 +50,6 @@ jobs:
       - name: Upload Windows EXE artifact
         uses: actions/upload-artifact@v4
         with:
-          name: windows-exe-基金净值分析工具
+          name: windows-exe-fund-analyzer
           path: release/*
+          retention-days: 30
